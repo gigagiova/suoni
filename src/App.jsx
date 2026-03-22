@@ -223,13 +223,13 @@ export default function App() {
       {/* Controls */}
       <div className="controls">
         <button className="btn" onClick={prev} aria-label="Previous">
-          <span className="btn-icon">⏮</span>
+          <span className="btn-icon">{'\u23EE\uFE0E'}</span>
         </button>
         <button className="btn btn-play" onClick={isPlaying ? stop : play} aria-label={isPlaying ? 'Stop' : 'Play'}>
-          <span className="btn-icon">{isPlaying ? '⏹' : '▶'}</span>
+          <span className="btn-icon">{isPlaying ? '\u23F9\uFE0E' : '\u25B6\uFE0E'}</span>
         </button>
         <button className="btn" onClick={next} aria-label="Next">
-          <span className="btn-icon">⏭</span>
+          <span className="btn-icon">{'\u23ED\uFE0E'}</span>
         </button>
       </div>
     </div>
