@@ -213,12 +213,23 @@ body::after {
 
 /* ── Speaker grille ── */
 .speaker-section {
-  background: linear-gradient(145deg, #b8b0a8, #9a928a);
+  background:
+    linear-gradient(
+      180deg,
+      #908880 0%,
+      #9a928a 30%,
+      #a8a098 60%,
+      #b0a8a0 100%
+    );
   border-radius: 12px;
   padding: 16px;
   box-shadow:
+    inset 0 5px 12px rgba(0, 0, 0, 0.35),
     inset 0 2px 4px rgba(0, 0, 0, 0.2),
-    0 1px 0 rgba(255, 255, 255, 0.15);
+    inset 3px 3px 8px rgba(0, 0, 0, 0.12),
+    inset -3px -3px 8px rgba(255, 255, 255, 0.08),
+    inset 0 -2px 4px rgba(255, 255, 255, 0.15),
+    0 1px 0 rgba(255, 255, 255, 0.12);
 }
 
 .speaker-grille {
