@@ -37,7 +37,7 @@ body::after {
 /* ── Walkman body ── */
 .walkman {
   width: 340px;
-  max-width: 90vw;
+  max-width: 80vw;
   background:
     linear-gradient(
       145deg,
